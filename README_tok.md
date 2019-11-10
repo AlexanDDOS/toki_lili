@@ -5,16 +5,17 @@
 - kulupu li **CVC** anu **VC** la ona li ante sama kulupu **(C)V**. nanpa pi sitelen `N` li pini e ni lon tenpo kama.  
 - kulupu li **V** la ona li ante sama **CV** poka ni: sitelen open ale en sitelen SRC weka sitelen ala monsi ona  
 - kulupu li **CV** la ona li kama nanpa `i` tan lipu poka ni:  
-	**-a	-e	-i	-o	-u**  
-**j-**	0	1	2'	3	4  
-**k-**	5	6	7	8	9  
-**l-**	10	11	12	13	14  
-**m-**	15	16	17	18	19  
-**n-**	20	21	22	23	24  
-**p-**	25	26	27	28	29  
-**s-**	30	31	32	33	34  
-**t-**	35	36	37'	38	39  
-**w-**	40	41	42	43'	44'  
+open | -a | -e | -i | -o | -u  
+---- | -- | -- | -- | -- | --  
+j- | 0 | 1 | 2' | 3 | 4  
+k- | 5 | 6 | 7 | 8 | 9  
+l- | 10 | 11 | 12 | 13 | 14  
+m- | 15 | 16 | 17 | 18 | 19  
+n- | 20 | 21 | 22 | 23 | 24  
+p- | 25 | 26 | 27 | 28 | 29  
+s- | 30 | 31 | 32 | 33 | 34  
+t- | 35 | 36 | 37' | 38 | 39  
+w- | 40 | 41 | 42 | 43' | 44'  
 *NOTE: kulupu sitelen ike (') li lon lipu tawa e ni: ilo nanpa ken ante monsi pona e sitelen pini*  
 kama li pini la `i` poka nanpa ASCII pi sitelen `'A'` (`i < 26`) anu sitelen `'a'`(`i >= 26`) li pali e nanpa pi sitelen ASCII pini  
 3. sina ken ante monsi e sitelen pini kepeken pali monsi ni: nanpa li kama kulupu sitelen CV. sitelen lawa poka li ante e ona  
