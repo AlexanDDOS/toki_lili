@@ -5,17 +5,19 @@
 - If the syllable is **CVC** or **VC**, it's converted as a **(C)V** syllabe with appending an N-byte  
 - If the syllable is **V**, it's converted as a **CV** syllable with any C and a SRC-byte instead of the space before it  
 - If the syllable is **CV**, it's converted into a numeral code `i` from this table:  
-Initiale | -a | -e | -i | -o | -u
--------- | -- | -- | -- | -- | --
-j- | 0 | 1 | 2' | 3 | 4  
-k- | 5 | 6 | 7 | 8 | 9  
-l- | 10 | 11 | 12 | 13 | 14  
-m- | 15 | 16 | 17 | 18 | 19  
-n- | 20 | 21 | 22 | 23 | 24  
-p- | 25 | 26 | 27 | 28 | 29  
-s- | 30 | 31 | 32 | 33 | 34  
-t- | 35 | 36 | 37' | 38 | 39  
-w- | 40 | 41 | 42 | 43' | 44'  
+  
+| Initiale | -a | -e | -i | -o | -u |  
+| :------- | :--: | :--: | :--: | :--: | :--: |   
+| j- | 0 | 1 | 2' | 3 | 4 |  
+| k- | 5 | 6 | 7 | 8 | 9 |  
+| l- | 10 | 11 | 12 | 13 | 14 |  
+| m- | 15 | 16 | 17 | 18 | 19 |  
+| n- | 20 | 21 | 22 | 23 | 24 |  
+| p- | 25 | 26 | 27 | 28 | 29 |  
+| s- | 30 | 31 | 32 | 33 | 34 |  
+| t- | 35 | 36 | 37' | 38 | 39 |  
+| w- | 40 | 41 | 42 | 43' | 44'|  
+
 *NOTE: The forbidden syllables (') are also included to the specification to provide faster decoding*  
 Then `i` and the ASCII code of `'A'` (`i < 26`) or `'a'`(`i >= 26`) are sumed into a code, that's repesented as a ASCII character  
 3. Decoding is made by vice versa operation: the code converts into a CV syllable that changes accoring to the near control character  
