@@ -27,7 +27,7 @@ kama li pini la `i` poka nanpa ASCII pi sitelen `'A'` (`i < 26`) anu sitelen `'a
 - `ESC` (open pi sitelen nasa, ID:0x77(w)) - sitelen sinpin li tan lipu ASCII ("wY" li 'Y' li "pu" ala)  
 - `CAP` (open pi sitelen suli, ID:0x78(x)) - sitelen sinpin li suli ("xD" li "Jo" li "jo" ala)  
 - `N` (sitelen 'N' pini, ID:0x79(y)) - sitelen "N" lon pini pi kulupu CVC ("Ly" li "len" li "le" ala)  
-- `SRC` (sitelen ala en weka pi sitelen sinpin,ID:0x7A(z)) - o ante e sitelen sinpin kepeken sitelen ala (ona li open la o weka e ona) ("zL" li "e" li "le" ala)
+- `SRC` (sitelen ala en weka pi sitelen sinpin,ID:0x7A(z)) - o ante e sitelen sinpin kepeken sitelen ala (ona li open e toki la o weka e ona). o ante e sitelen ala kepeken ona ("zL" li "e" li "le" ala)
 # mi ken kepeken e ona tawa seme?  
 mi pali e pali ni tawa e ni: pali lili e sona awen. ona li ken lon wan 50% ale lili pi poki awen wile tan Toki Lili. sina wile awen anu pana e toki pi toki pona la ona li ken pali pona tawa sina. sitelen pini li sitelen nimi pi lipu ASCII. sina ken awen e ona sama sitelen nimi nasin tan ni.  
 namako la sina ken kepeken e ni tawa pali lukin nasa e nimi sina. ona li ken ala pali pona tawa lipu kon lawa a. taso sina ken kon e ale tawa jan pi sona lili anu tawa musi.

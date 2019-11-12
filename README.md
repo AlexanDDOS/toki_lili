@@ -26,7 +26,7 @@ Then `i` and the ASCII code of `'A'` (`i < 26`) or `'a'`(`i >= 26`) are sumed in
 - `ESC` (Escape character, ID:0x77(w)) - interpret next character as a usual ASCII character (i.e. "wY" is decoded as 'Y', not "pu")  
 - `CAP` (Capitalizion, ID:0x78(x)) - the next character will be capitalized (i.e. "xD" is decoded as "Jo", not "jo")  
 - `N` (Finale 'N', ID:0x79(y)) - represents the finale "N" in CVC syllables (i.e. "Ly" is decoded as "len", not "le")  
-- `SRC` (Space & remove next character,ID:0x7A(z)) - replace the first character of the following syllable with a space (or just remove it if it's first) (i.e. "zL" is decoded as "e", not "le")
+- `SRC` (Space & remove next character,ID:0x7A(z)) - replace the first character of the following syllable with a space (or just remove it if it's first in the line). Always is placed instead of the space. (i.e. "zL" is decoded as "e", not "le")
 # Where can it be used?  
 The primary property of the algorithm is data compression. Using Toki Lili may save you up to 50% of the text file size, that's useful for storing & sending long texts in Toki Pona. The code use only the visible ASCII characters, so you can store and represent the compressed text as a usual text.  
 Additionally, it can used as a primative word cipher. Not for confedence or top secret documents, of course, but it's enough to encrypt something from not sufficiently curious persons or just for fun.
