@@ -38,7 +38,7 @@ local esc=false
 
 while s~="" do
  ch=s:sub(1,3)
- print(ch)
+ --print(ch)
  if vs:find(ch:sub(1,1)) then
   ch=ch:sub(1,-2)--Remove last char
  end

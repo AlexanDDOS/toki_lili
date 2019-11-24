@@ -21,9 +21,9 @@ local esc=false --escape char(w)
 local cap=false --capitalized(x)
 
 while s~="" do
- print(s)
+ --print(s)
  ch=s:sub(1,1):byte()
- print(ch)
+ --print(ch)
  if esc then
   ch=string.char(ch)
   esc=false
